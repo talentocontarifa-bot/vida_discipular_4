@@ -54,6 +54,40 @@
             <button class="btn-icon" onclick="toggleSettings()">✕</button>
         </div>
 
+        <div style="margin-bottom: 2rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 1.5rem;">
+            <label
+                style="display:block; font-size:0.75rem; font-weight:700; color:#6b7280; margin-bottom:0.75rem; letter-spacing:0.05em;">CUENTA
+                Y SINCRONIZACIÓN</label>
+            <div id="user-section">
+                <!-- Estado Desconectado -->
+                <div id="logged-out-view">
+                    <p style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 10px;">Inicia sesión para
+                        guardar tu progreso en la nube y no perder tus respuestas.</p>
+                    <button class="btn-primary" onclick="loginWithGoogle()"
+                        style="display:flex; align-items:center; justify-content:center; gap:10px;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .533 5.333.533 12S5.867 24 12.48 24c3.44 0 6.013-1.133 8.053-3.24 2.08-2.08 2.72-5.013 2.72-7.467 0-.747-.067-1.48-.187-2.187h-10.59z" />
+                        </svg>
+                        Google
+                    </button>
+                </div>
+                <!-- Estado Conectado -->
+                <div id="logged-in-view" class="hidden">
+                    <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+                        <img id="user-photo" src="" alt="User" style="width:32px; height:32px; border-radius:50%;">
+                        <div>
+                            <div id="user-name" style="font-weight:600; font-size:0.9rem;">Usuario</div>
+                            <div id="user-email" style="font-size:0.75rem; color:var(--text-light);">email@ejemplo.com
+                            </div>
+                        </div>
+                    </div>
+                    <div style="font-size:0.75rem; color:green; margin-bottom:10px;">● Sincronización activa</div>
+                    <button class="btn-secondary" onclick="logout()">Cerrar Sesión</button>
+                </div>
+            </div>
+        </div>
+
         <div style="margin-bottom: 2rem;">
             <label
                 style="display:block; font-size:0.75rem; font-weight:700; color:#6b7280; margin-bottom:0.75rem; letter-spacing:0.05em;">TEMA</label>
