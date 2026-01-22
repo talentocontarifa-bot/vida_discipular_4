@@ -7,6 +7,21 @@ const bookData = {
             verse: "Mateo 5.23-24: Por tanto, si traes tu ofrenda al altar, y allí te acuerdas de que tu hermano tiene algo contra ti...",
             days: [
                 {
+                    id: "w1intro", title: "Introducción Semana 1: Metas y Disciplinas",
+                    content: [
+                        { type: "header", text: "La Meta de esta Semana" },
+                        { type: "text", text: "Evaluar sus relaciones con otras personas y procurar la reconciliación cuando sea necesario." },
+                        { type: "header", text: "Mi Andar con el Maestro" },
+                        { type: "checklist", id: "w1_devocional", prompt: "DEDICARLE TIEMPO AL MAESTRO (Devocional Diario):", options: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"] },
+                        { type: "text", text: "<strong>VIVIR EN LA PALABRA:</strong> Lea su Biblia diariamente. Memorice Mateo 5.23-24." },
+                        { type: "text", text: "<strong>ORAR CON FE:</strong> Ore con su compañero de oración." },
+                        { type: "text", text: "<strong>TENER COMUNIÓN:</strong> Llene el formulario 'Índice de relaciones'." },
+                        { type: "text", text: "<strong>TESTIFICAR:</strong> Visite a un vecino." },
+                        { type: "text", text: "<strong>MINISTRAR:</strong> Complete la autoevaluación." },
+                        { type: "text", text: "<div class='verse-box'><strong>Versículo para Memorizar:</strong><br>Por tanto, si traes tu ofrenda al altar, y allí te acuerdas de que tu hermano tiene algo contra ti, deja allí tu ofrenda delante del altar, y anda, reconcíliate primero con tu hermano, y entonces ven y presenta tu ofrenda (Mateo 5.23-24).</div>" }
+                    ]
+                },
+                {
                     id: "w1d1", title: "Día 1: Importancia de las relaciones",
                     content: [
                         { type: "text", text: "Su líder le presentó el Maestro Constructor en la primera sesión del grupo. Este plan describe el camino del discipulado y el crecimiento espiritual. El Maestro Constructor ilustra cómo las relaciones son de vital importancia para predicar el evangelio y llevar a cabo la misión de Cristo. ¿Cuál es nuestra misión como discípulos de Cristo?" },
@@ -23,7 +38,10 @@ const bookData = {
                         { type: "question", id: "w1d1q2", prompt: "¿Con quién estaban enfadados los discípulos? ¿Por qué?", placeholder: "Responda aquí..." },
                         { type: "text", text: "Nuestra relación con Cristo hace posible que restauremos las relaciones personales. Por medio del perdón podemos reconciliarnos con Dios y con los demás. Lea 1 Juan 1.7." },
                         { type: "text", text: "<div class='verse-box'><strong>1 Juan 1.7 (NVI):</strong> Pero si vivimos en la luz, así como él está en la luz, tenemos comunión unos con otros y la sangre de su Hijo Jesucristo nos limpia de todo pecado.</div>" },
-                        { type: "question", id: "w1d1q3", prompt: "¿Cuál es la base de la comunión entre los creyentes? ¿Qué limpia esa comunión?", placeholder: "Responda aquí..." }
+                        { type: "question", id: "w1d1q3", prompt: "¿Cuál es la base de la comunión entre los creyentes? ¿Qué limpia esa comunión?", placeholder: "Responda aquí..." },
+                        { type: "header", text: "GUÍA DIARIA (1 Juan 3.11-24)" },
+                        { type: "question", id: "w1d1g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w1d1g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -37,7 +55,10 @@ const bookData = {
                         { type: "header", text: "El Mandamiento de Cristo" },
                         { type: "question", id: "w1d2q2", prompt: "Trate de escribir de memoria Mateo 5.23-24:", placeholder: "Escriba el versículo..." },
                         { type: "text", text: "<div class='verse-box'><strong>Mateo 18.21-22 (NVI):</strong> Pedro se acercó a Jesús y le pregunto: —Señor, ¿cuántas veces tengo que perdonar a mi hermano que peca contra mí? ¿Hasta siete veces? —No te digo que hasta siete veces, sino hasta setenta veces siete —le contestó Jesús.<br><br><strong>Juan 13.34-35 (NVI):</strong> Este mandamiento nuevo les doy: que se amen los unos a los otros. Así como yo los he amado... De este modo todos sabrán que son mis discípulos.</div>" },
-                        { type: "checklist", id: "w1d2c1", prompt: "Lea Mateo 18.21-22 y Juan 13.34-35. Marque Verdadero o Falso para las siguientes declaraciones:", options: ["Según Mateo 5.23-24, usted debe restaurar las relaciones sólo si la otra persona lo ha agraviado a usted.", "Según Mateo 18.21-22, usted debe perdonar 490 veces.", "Según Juan 13.34-35, no se espera que usted ame a los demás tal como Cristo lo amó a usted."] }
+                        { type: "checklist", id: "w1d2c1", prompt: "Lea Mateo 18.21-22 y Juan 13.34-35. Marque Verdadero o Falso para las siguientes declaraciones:", options: ["Según Mateo 5.23-24, usted debe restaurar las relaciones sólo si la otra persona lo ha agraviado a usted.", "Según Mateo 18.21-22, usted debe perdonar 490 veces.", "Según Juan 13.34-35, no se espera que usted ame a los demás tal como Cristo lo amó a usted."] },
+                        { type: "header", text: "GUÍA DIARIA (Mateo 5.21-48)" },
+                        { type: "question", id: "w1d2g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w1d2g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -48,7 +69,10 @@ const bookData = {
                         { type: "text", text: "<div class='verse-box'><strong>Hebreos 12.15 (NVI):</strong> Asegúrense de que nadie deje de alcanzar la gracia de Dios; de que ninguna raíz amarga brote y cause dificultades y corrompa a muchos.</div>" },
                         { type: "checklist", id: "w1d3c1", prompt: "Lea Hebreos 12.15 y marque los peligros que se especifican:", options: ["La persona puede olvidar", "No perdonar a dicha persona", "Raíz de amargura que contamina"] },
                         { type: "question", id: "w1d3q1", prompt: "¿Cuál es la mejor forma de abordar el problema? (Escriba su frase de apertura ideal)", placeholder: "Ej: Siento mucho que..." },
-                        { type: "text", text: "Pasos para la reconciliación: 1. Reconcíliese en privado. 2. Confiese sus faltas. 3. Pregunte si ha ofendido." }
+                        { type: "text", text: "Pasos para la reconciliación: 1. Reconcíliese en privado. 2. Confiese sus faltas. 3. Pregunte si ha ofendido." },
+                        { type: "header", text: "GUÍA DIARIA (Mateo 18.21-35)" },
+                        { type: "question", id: "w1d3g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w1d3g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -57,7 +81,10 @@ const bookData = {
                         { type: "text", text: "Después de pedir perdón, se necesita restituir (Zaqueo, Lucas 19.8)." },
                         { type: "checklist", id: "w1d4c1", prompt: "¿Qué constituye restitución adecuada?", options: ["Decir 'lo siento'", "Retractarse públicamente", "Devolver lo robado", "Reparar el daño material"] },
                         { type: "text", text: "<div class='verse-box'><strong>Mateo 18.15-17 (NVI):</strong> Si tu hermano peca contra ti, ve a solas con él y hazle ver su falta. Si te hace caso, has ganado a tu hermano. Pero si no, lleva contigo a uno o dos más... Si se niega a hacerles caso a ellos, díselo a la iglesia.</div>" },
-                        { type: "question", id: "w1d4q1", prompt: "Lea Mateo 18.15-17. Si un hermano peca contra ti, ¿cuál es el primer paso?", placeholder: "Respuesta..." }
+                        { type: "question", id: "w1d4q1", prompt: "Lea Mateo 18.15-17. Si un hermano peca contra ti, ¿cuál es el primer paso?", placeholder: "Respuesta..." },
+                        { type: "header", text: "GUÍA DIARIA (1 Juan 4.7-21)" },
+                        { type: "question", id: "w1d4g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w1d4g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -78,6 +105,21 @@ const bookData = {
             verse: "Romanos 6.23: Porque la paga del pecado es muerte, mas la dádiva de Dios es vida eterna...",
             days: [
                 {
+                    id: "w2intro", title: "Introducción Semana 2: Testificar y Discipular",
+                    content: [
+                        { type: "header", text: "La Meta de esta Semana" },
+                        { type: "text", text: "Podrá testificar de su fe, asumir su tarea de discipular a otros y usar la oración como recurso para ministrar a otros." },
+                        { type: "header", text: "Mi Andar con el Maestro" },
+                        { type: "checklist", id: "w2_devocional", prompt: "DEDICARLE TIEMPO AL MAESTRO:", options: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"] },
+                        { type: "text", text: "<strong>VIVIR EN LA PALABRA:</strong> Lea su Biblia. Memorice Romanos 6.23. Repase Mateo 5.23-24." },
+                        { type: "text", text: "<strong>ORAR CON FE:</strong> Ore por ministerios de evangelismo y por sus vecinos." },
+                        { type: "text", text: "<strong>TENER COMUNIÓN:</strong> Use el formulario 'Cociente de relaciones' con un familiar." },
+                        { type: "text", text: "<strong>TESTIFICAR:</strong> Escriba nombres de inconversos. Visite vecinos." },
+                        { type: "text", text: "<strong>MINISTRAR:</strong> Aprenda características de una persona incrédula." },
+                        { type: "text", text: "<div class='verse-box'><strong>Versículo para Memorizar:</strong><br>Porque la paga del pecado es muerte, mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro (Romanos 6.23).</div>" }
+                    ]
+                },
+                {
                     id: "w2d1", title: "Día 1: Las relaciones son el todo",
                     content: [
                         { type: "header", text: "Historia del Boxeador" },
@@ -86,7 +128,10 @@ const bookData = {
                         { type: "text", text: "<div class='verse-box'><strong>Juan 17.1 (NVI):</strong> Después de que Jesús dijo esto, dirigió la mirada al cielo y oró así: «Padre, ha llegado la hora. Glorifica a tu Hijo, para que tu Hijo te glorifique a ti».</div>" },
                         { type: "question", id: "w2d1q1", prompt: "Lea Juan 17.1. ¿Cuál era el propósito de Jesús?", placeholder: "Respuesta..." },
                         { type: "checklist", id: "w2d1c1", prompt: "¿Cómo puede glorificar al Padre?", options: ["Tiempo devocional", "Prioridades financieras", "Actividades sanas"] },
-                        { type: "question", id: "w2d1q2", prompt: "¿A quién le ha encomendado Dios para discipular?", placeholder: "Nombres..." }
+                        { type: "question", id: "w2d1q2", prompt: "¿A quién le ha encomendado Dios para discipular?", placeholder: "Nombres..." },
+                        { type: "header", text: "GUÍA DIARIA (Juan 17)" },
+                        { type: "question", id: "w2d1g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w2d1g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -94,7 +139,10 @@ const bookData = {
                     content: [
                         { type: "text", text: "Juan 17.6-7: Jesús reveló al Padre, enseñó que el Padre es la fuente y enseñó obediencia." },
                         { type: "question", id: "w2d2q1", prompt: "¿Cómo puede revelar a Dios a sus discípulos?", placeholder: "Ideas..." },
-                        { type: "question", id: "w2d2q2", prompt: "Según Juan 17.6, ¿qué identifica a los verdaderos discípulos?", placeholder: "Respuesta..." }
+                        { type: "question", id: "w2d2q2", prompt: "Según Juan 17.6, ¿qué identifica a los verdaderos discípulos?", placeholder: "Respuesta..." },
+                        { type: "header", text: "GUÍA DIARIA (Lucas 19.28-35)" },
+                        { type: "question", id: "w2d2g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w2d2g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -105,7 +153,10 @@ const bookData = {
                         { type: "question", id: "w2d3q1", prompt: "Escriba las características de una persona espiritualmente muerta (Ef 2.12, 4.18):", placeholder: "Características..." },
                         { type: "header", text: "Método para Testificar" },
                         { type: "text", text: "Use los 4 puntos: Familia, Intereses, Religión, Preguntas de Diagnóstico." },
-                        { type: "question", id: "w2d3q2", prompt: "Escriba la primera pregunta de diagnóstico:", placeholder: "¿Está seguro de tener vida eterna...?" }
+                        { type: "question", id: "w2d3q2", prompt: "Escriba la primera pregunta de diagnóstico:", placeholder: "¿Está seguro de tener vida eterna...?" },
+                        { type: "header", text: "GUÍA DIARIA (Romanos 6)" },
+                        { type: "question", id: "w2d3g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w2d3g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -113,7 +164,10 @@ const bookData = {
                     content: [
                         { type: "text", text: "Jesús oró por sus discípulos, no por el mundo (en ese momento). Oró por protección, santificación y unidad." },
                         { type: "question", id: "w2d4q1", prompt: "¿Cómo puede proteger del maligno a quienes discipula?", placeholder: "Estrategias..." },
-                        { type: "checklist", id: "w2d4c1", prompt: "Grados de receptividad (El Sembrador):", options: ["Buena tierra", "Pedregosa", "Espinos", "Dura"] }
+                        { type: "checklist", id: "w2d4c1", prompt: "Grados de receptividad (El Sembrador):", options: ["Buena tierra", "Pedregosa", "Espinos", "Dura"] },
+                        { type: "header", text: "GUÍA DIARIA (Juan 16)" },
+                        { type: "question", id: "w2d4g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w2d4g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -122,7 +176,10 @@ const bookData = {
                         { type: "text", text: "Los campos están blancos para la cosecha. Jesús nos eligió para llevar fruto." },
                         { type: "text", text: "<div class='verse-box'><strong>1 Timoteo 2.3-4 (NVI):</strong> Esto es bueno y agradable a Dios nuestro Salvador, pues él quiere que todos sean salvos y lleguen a conocer la verdad.</div>" },
                         { type: "question", id: "w2d5q1", prompt: "Lea 1 Timoteo 2.3-4. ¿Cuál es la voluntad de Dios?", placeholder: "Respuesta..." },
-                        { type: "question", id: "w2d5q2", prompt: "Escriba nombres de personas a quienes ha testificado:", placeholder: "Nombres y reacciones..." }
+                        { type: "question", id: "w2d5q2", prompt: "Escriba nombres de personas a quienes ha testificado:", placeholder: "Nombres y reacciones..." },
+                        { type: "header", text: "GUÍA DIARIA (Juan 4.31-38)" },
+                        { type: "question", id: "w2d5g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w2d5g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 }
             ]
@@ -132,6 +189,21 @@ const bookData = {
             title: "Semana 3: Instruir a los niños espirituales",
             verse: "1 Pedro 2.2-3: Desead, como niños recién nacidos, la leche espiritual no adulterada...",
             days: [
+                {
+                    id: "w3intro", title: "Introducción Semana 3: Instruir a los Niños Espirituales",
+                    content: [
+                        { type: "header", text: "La Meta de esta Semana" },
+                        { type: "text", text: "Usted podrá discipular a los nuevos creyentes." },
+                        { type: "header", text: "Mi Andar con el Maestro" },
+                        { type: "checklist", id: "w3_devocional", prompt: "DEDICARLE TIEMPO AL MAESTRO:", options: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"] },
+                        { type: "text", text: "<strong>VIVIR EN LA PALABRA:</strong> Lea su Biblia. Memorice 1 Pedro 2.2-3. Repase Mateo 5.23-24 y Romanos 6.23." },
+                        { type: "text", text: "<strong>ORAR CON FE:</strong> Ore con su compañero y por sus vecinos." },
+                        { type: "text", text: "<strong>TENER COMUNIÓN:</strong> Reconcíliese. Anime a un creyente nuevo." },
+                        { type: "text", text: "<strong>TESTIFICAR:</strong> Aprenda 'El evangelio en la mano'. Visite a una persona inconversa." },
+                        { type: "text", text: "<strong>MINISTRAR:</strong> Aprenda características de un niño espiritual." },
+                        { type: "text", text: "<div class='verse-box'><strong>Versículo para Memorizar:</strong><br>Desead, como niños recién nacidos, la leche espiritual no adulterada, para que por ella crezcáis para salvación, si es que habéis gustado la benignidad del Señor (1 Pedro 2.2-3).</div>" }
+                    ]
+                },
                 {
                     id: "w3d1", title: "Día 1: Seguimiento",
                     content: [
@@ -149,7 +221,10 @@ const bookData = {
                         { type: "text", text: "Ayudar al nuevo creyente a afirmarse en el nuevo grupo de amigos es crucial. Bernabé respondió por Pablo cuando los demás dudaban." },
                         { type: "header", text: "Una Misión con el Maestro: El Niño Espiritual" },
                         { type: "text", text: "<div class='verse-box'><strong>1 Corintios 3.1 (NVI):</strong> ...no pude hablarles como a personas espirituales sino como a inmaduras, apenas niños en Cristo.<br><br><strong>Efesios 4.14 (NVI):</strong> Así ya no seremos niños, zarandeados por las olas y llevados de aquí para allá por todo viento de enseñanza...</div>" },
-                        { type: "checklist", id: "w3d1c2", prompt: "Lea 1 Corintios 3.1 y Efesios 4.14. Marque las características de un niño espiritual:", options: ["Sigue la orientación del mundo", "Propenso a celos y disputas", "Está bien fortalecido en su fe", "Propenso a ser tentado", "Cree en falsas enseñanzas con facilidad", "No sabe discernir quién le puede hacer daño"] }
+                        { type: "checklist", id: "w3d1c2", prompt: "Lea 1 Corintios 3.1 y Efesios 4.14. Marque las características de un niño espiritual:", options: ["Sigue la orientación del mundo", "Propenso a celos y disputas", "Está bien fortalecido en su fe", "Propenso a ser tentado", "Cree en falsas enseñanzas con facilidad", "No sabe discernir quién le puede hacer daño"] },
+                        { type: "header", text: "GUÍA DIARIA (Hechos 9.19-31)" },
+                        { type: "question", id: "w3d1g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w3d1g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -163,7 +238,10 @@ const bookData = {
                         { type: "text", text: "Piense en las siguientes situaciones y cómo un creyente maduro podría ayudar." },
                         { type: "question", id: "w3d2q2", prompt: "Caso 1: Caridad rompió con su novio con quien vivía para seguir a Cristo. Se siente sola. ¿Qué haría usted?", placeholder: "Ideas de apoyo..." },
                         { type: "question", id: "w3d2q3", prompt: "Caso 2: Jorge luchaba contra la pornografía. Ahora viaja mucho y se siente tentado. ¿Cómo ayudarlo?", placeholder: "Ideas de apoyo..." },
-                        { type: "question", id: "w3d2q4", prompt: "Caso 3: Felipe nunca había orado ni tenido Biblia. Se siente incómodo en la clase. ¿Qué haría?", placeholder: "Ideas de apoyo..." }
+                        { type: "question", id: "w3d2q4", prompt: "Caso 3: Felipe nunca había orado ni tenido Biblia. Se siente incómodo en la clase. ¿Qué haría?", placeholder: "Ideas de apoyo..." },
+                        { type: "header", text: "GUÍA DIARIA (Hechos 13)" },
+                        { type: "question", id: "w3d2g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w3d2g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -177,7 +255,10 @@ const bookData = {
                         { type: "text", text: "<div class='verse-box'><strong>1 Tesalonicenses 2 (NVI) Resumen:</strong><br>v1-5: ...nunca hemos usado palabras aduladoras... (Trato sincero)<br>v6-7: ...los tratamos con delicadeza. Como una madre que amamanta a sus hijos...<br>v11-12: ...como un padre a sus propios hijos, los hemos animado, consolado y exhortado...</div>" },
                         { type: "list", items: ["1 Tes 2.1-5 -> Hermano (trato igualitario)", "1 Tes 2.6-7 -> Madre (cuidado tierno)", "1 Tes 2.11-12 -> Padre (exhortación y consuelo)"] },
                         { type: "text", text: "Un padre espiritual debe proteger, enseñar, ser ejemplo y trabajar hasta que el creyente madure." },
-                        { type: "question", id: "w3d3q2", prompt: "En el Maestro Constructor, ¿cuál es la tarea del Discipulador con el Niño Espiritual?", placeholder: "Respuesta..." }
+                        { type: "question", id: "w3d3q2", prompt: "En el Maestro Constructor, ¿cuál es la tarea del Discipulador con el Niño Espiritual?", placeholder: "Respuesta..." },
+                        { type: "header", text: "GUÍA DIARIA (1 Tesalonicenses 2—3)" },
+                        { type: "question", id: "w3d3g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w3d3g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -191,7 +272,10 @@ const bookData = {
                         { type: "text", text: "¿Cómo puede usar las disciplinas de la Cruz del Discípulo para instruir a un nuevo creyente?" },
                         { type: "question", id: "w3d4q2", prompt: "Vivir la Palabra:", placeholder: "Cómo explicarlo..." },
                         { type: "question", id: "w3d4q3", prompt: "Orar con fe:", placeholder: "Cómo explicarlo..." },
-                        { type: "question", id: "w3d4q4", prompt: "Comunión y Testimonio:", placeholder: "Cómo explicarlo..." }
+                        { type: "question", id: "w3d4q4", prompt: "Comunión y Testimonio:", placeholder: "Cómo explicarlo..." },
+                        { type: "header", text: "GUÍA DIARIA (Hechos 11)" },
+                        { type: "question", id: "w3d4g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w3d4g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -212,7 +296,10 @@ const bookData = {
                         { type: "header", text: "Misión con el Maestro" },
                         { type: "text", text: "La tarea del Maestro Constructor con un niño espiritual es INSTRUIRLO. Su meta es afirmar a dicha persona en la fe." },
                         { type: "question", id: "w3d5q2", prompt: "Escriba los nombres de los nuevos creyentes a quienes usted ayuda:", placeholder: "Nombres..." },
-                        { type: "text", text: "En las semanas anteriores aprendió que es difícil discipular a alguien con quien no tiene una buena relación. Procure reconciliarse con quien sea difícil antes de intentar guiarlo." }
+                        { type: "text", text: "En las semanas anteriores aprendió que es difícil discipular a alguien con quien no tiene una buena relación. Procure reconciliarse con quien sea difícil antes de intentar guiarlo." },
+                        { type: "header", text: "GUÍA DIARIA (2 Pedro 1.5-9)" },
+                        { type: "question", id: "w3d5g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w3d5g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 }
             ]
@@ -223,6 +310,21 @@ const bookData = {
             verse: "Lucas 6.40: El discípulo no es superior a su maestro; mas todo el que fuere perfeccionado, será como su maestro.",
             days: [
                 {
+                    id: "w4intro", title: "Introducción Semana 4: La Madurez del Discípulo",
+                    content: [
+                        { type: "header", text: "La Meta de esta Semana" },
+                        { type: "text", text: "Podrá bosquejar un proceso personal de crecimiento y comenzar a ayudar a otro creyente a crecer." },
+                        { type: "header", text: "Mi Andar con el Maestro" },
+                        { type: "checklist", id: "w4_devocional", prompt: "DEDICARLE TIEMPO AL MAESTRO:", options: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"] },
+                        { type: "text", text: "<strong>VIVIR EN LA PALABRA:</strong> Lea su Biblia. Memorice Lucas 6.40. Repase Mateo 5, Romanos 6, 1 Pedro 2." },
+                        { type: "text", text: "<strong>ORAR CON FE:</strong> Ore por vocación de servicio." },
+                        { type: "text", text: "<strong>TENER COMUNIÓN:</strong> Dedique tiempo a un familiar o amigo." },
+                        { type: "text", text: "<strong>TESTIFICAR:</strong> Explique 'El evangelio en la mano' a un inconverso." },
+                        { type: "text", text: "<strong>MINISTRAR:</strong> Aprenda características del discípulo espiritual. Use el dinero para ministrar. Estudie mayordomía." },
+                        { type: "text", text: "<div class='verse-box'><strong>Versículo para Memorizar:</strong><br>El discípulo no es superior a su maestro; mas todo el que fuere perfeccionado, será como su maestro (Lucas 6.40).</div>" }
+                    ]
+                },
+                {
                     id: "w4d1", title: "Día 1: Crezca hacia la madurez",
                     content: [
                         { type: "text", text: "Cuando Shirley y yo éramos novios... ¿Cómo mide usted su madurez? El propósito de Dios es que sea espiritualmente maduro." },
@@ -232,7 +334,10 @@ const bookData = {
                         { type: "checklist", id: "w4d1c1", prompt: "Relacione los versículos con los propósitos de Dios:", options: ["Col 1.22: Ser presentados santos y sin mancha", "Col 1.13: Ser trasladados al Reino", "Col 1.9: Ser llenos del conocimiento de su voluntad", "Col 1.10: Andar como es digno del Señor"] },
                         { type: "header", text: "Ilustraciones de Crecimiento" },
                         { type: "list", items: ["1. Crecimiento Humano (Niño -> Adulto)", "2. Crecimiento de Planta (Arraigados, Ef 3.17)", "3. Construcción de Edificio (Edificados en Él, 1 Cor 3.11)"] },
-                        { type: "question", id: "w4d1q1", prompt: "Marque su nivel de madurez (1 bajo, 5 alto) en: 'Soy fuerte', 'La Palabra vive en mí', 'Me sobrepongo al mal':", placeholder: "Niveles..." }
+                        { type: "question", id: "w4d1q1", prompt: "Marque su nivel de madurez (1 bajo, 5 alto) en: 'Soy fuerte', 'La Palabra vive en mí', 'Me sobrepongo al mal':", placeholder: "Niveles..." },
+                        { type: "header", text: "GUÍA DIARIA (Colosenses 2)" },
+                        { type: "question", id: "w4d1g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w4d1g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -245,7 +350,10 @@ const bookData = {
                         { type: "text", text: "Siga estos pasos para establecer su pacto de mayordomía:" },
                         { type: "checklist", id: "w4d2c1", prompt: "Paso 1: Reconocer a Dios como dueño:", options: ["Dios es el soberano Creador (Sal 24.1)", "El hombre es administrador (Sal 8.6)", "Dios suple necesidades (Fil 4.19)"] },
                         { type: "checklist", id: "w4d2c2", prompt: "Paso 2: Practicar responsabilidad:", options: ["Glorifico a Dios con mis bienes", "Administro correctamente", "Diezmo a mi iglesia", "Doy más que el diezmo", "Pago mis impuestos"] },
-                        { type: "question", id: "w4d2q1", prompt: "Firme su compromiso de mayordomía:", placeholder: "Yo me comprometo a ser un mayordomo de Dios..." }
+                        { type: "question", id: "w4d2q1", prompt: "Firme su compromiso de mayordomía:", placeholder: "Yo me comprometo a ser un mayordomo de Dios..." },
+                        { type: "header", text: "GUÍA DIARIA (2 Corintios 9)" },
+                        { type: "question", id: "w4d2g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w4d2g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -267,7 +375,10 @@ const bookData = {
                         { type: "text", text: "El ejemplo es vital porque es difícil creer lo que no se ve. Escriba nombres de personas que son ejemplo para usted." },
                         { type: "question", id: "w4d3q1", prompt: "Nombres de sus ejemplos cristianos:", placeholder: "Nombres..." },
                         { type: "header", text: "Principio 2: Explicar" },
-                        { type: "text", text: "El ejemplo necesita explicación. Jesús explicaba que todo lo que hacía venía del Padre (Juan 17.7)." }
+                        { type: "text", text: "El ejemplo necesita explicación. Jesús explicaba que todo lo que hacía venía del Padre (Juan 17.7)." },
+                        { type: "header", text: "GUÍA DIARIA (Marcos 12.1-13)" },
+                        { type: "question", id: "w4d3g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w4d3g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -281,7 +392,10 @@ const bookData = {
                         { type: "header", text: "Cómo Guiar a Alguien a Comprometerse" },
                         { type: "text", text: "Al presentar el evangelio, debe llevar a la persona a decidir. Haga estas preguntas:" },
                         { type: "list", items: ["1. ¿Esto tiene sentido para usted?", "2. ¿Hay alguna razón por la cual no quiera recibir el regalo de Dios?", "3. ¿Está dispuesto a arrepentirse y depositar su fe en Cristo ahora?"] },
-                        { type: "question", id: "w4d4q1", prompt: "Explique con sus palabras cómo guiar a alguien al compromiso:", placeholder: "Explicación..." }
+                        { type: "question", id: "w4d4q1", prompt: "Explique con sus palabras cómo guiar a alguien al compromiso:", placeholder: "Explicación..." },
+                        { type: "header", text: "GUÍA DIARIA (Marcos 5.1-20)" },
+                        { type: "question", id: "w4d4g_q1", prompt: "Qué me dijo Dios:", placeholder: "..." },
+                        { type: "question", id: "w4d4g_q2", prompt: "Qué le dije yo a Dios:", placeholder: "..." }
                     ]
                 },
                 {
@@ -303,6 +417,21 @@ const bookData = {
             title: "Semana 5: Formación de discípulos",
             verse: "2 Crónicas 16.9a: Porque los ojos de Jehová contemplan toda la tierra, para mostrar su poder a favor de los que tienen corazón perfecto para con él.",
             days: [
+                {
+                    id: "w5intro", title: "Introducción Semana 5: Formación de Discípulos",
+                    content: [
+                        { type: "header", text: "La Meta de esta Semana" },
+                        { type: "text", text: "Usted podrá ayudar a otros creyentes a desarrollarse como discípulos de Cristo." },
+                        { type: "header", text: "Mi Andar con el Maestro" },
+                        { type: "checklist", id: "w5_devocional", prompt: "DEDICARLE TIEMPO AL MAESTRO:", options: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"] },
+                        { type: "text", text: "<strong>VIVIR EN LA PALABRA:</strong> Memorice 2 Crónicas 16.9. Repase anteriores." },
+                        { type: "text", text: "<strong>ORAR CON FE:</strong> Ore por ministerios y sus discípulos." },
+                        { type: "text", text: "<strong>TENER COMUNIÓN:</strong> Celebre un culto familiar. Apoye a alguien en su iglesia." },
+                        { type: "text", text: "<strong>TESTIFICAR:</strong> Testifique a una persona inconversa." },
+                        { type: "text", text: "<strong>MINISTRAR:</strong> Aprenda características del discipulador. Prepare un mensaje bíblico." },
+                        { type: "text", text: "<div class='verse-box'><strong>Versículo para Memorizar:</strong><br>Porque los ojos de Jehová contemplan toda la tierra, para mostrar su poder a favor de los que tienen corazón perfecto para con él (2 Crónicas 16.9a).</div>" }
+                    ]
+                },
                 {
                     id: "w5d1", title: "Día 1: Ejemplifique la dependencia",
                     content: [
@@ -375,6 +504,21 @@ const bookData = {
             title: "Semana 6: Ministrar como colaboradores",
             verse: "Mateo 28.19-20: Por tanto, id, y haced discípulos a todas las naciones...",
             days: [
+                {
+                    id: "w6intro", title: "Introducción Semana 6: Ministrar como Colaboradores",
+                    content: [
+                        { type: "header", text: "La Meta de esta Semana" },
+                        { type: "text", text: "Trabajará con los colaboradores con quienes formará un equipo discipulador." },
+                        { type: "header", text: "Mi Andar con el Maestro" },
+                        { type: "checklist", id: "w6_devocional", prompt: "DEDICARLE TIEMPO AL MAESTRO:", options: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"] },
+                        { type: "text", text: "<strong>VIVIR EN LA PALABRA:</strong> Memorice Mateo 28.19-20. Repase anteriores." },
+                        { type: "text", text: "<strong>ORAR CON FE:</strong> Ore por su ministerio y un retiro de oración." },
+                        { type: "text", text: "<strong>TENER COMUNIÓN:</strong> Informe de su progreso a un compañero." },
+                        { type: "text", text: "<strong>TESTIFICAR:</strong> Examine un mapa mundial. Testifique." },
+                        { type: "text", text: "<strong>MINISTRAR:</strong> Aprenda características del colaborador. Complete inventario de dones." },
+                        { type: "text", text: "<div class='verse-box'><strong>Versículo para Memorizar:</strong><br>Por tanto, id, y haced discípulos a todas las naciones... (Mateo 28.19-20).</div>" }
+                    ]
+                },
                 {
                     id: "w6d1", title: "Día 1: Los dones de la gracia de Dios",
                     content: [
