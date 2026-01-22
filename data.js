@@ -14,12 +14,15 @@ const bookData = {
                         { type: "text", text: "Fortalecer las relaciones personales es esencial para predicar el evangelio y hacer discípulos en todas las naciones. Las relaciones inadecuadas levantan barreras para testificar." },
                         { type: "header", text: "El Centro de Su Experiencia" },
                         { type: "text", text: "La comunión entre los creyentes es el centro de su experiencia cristiana. Su relación con Dios, por medio de Cristo, lo une a usted con otros creyentes formando así el cuerpo de Cristo." },
+                        { type: "text", text: "<div class='verse-box'><strong>1 Juan 3.14 (NVI):</strong> Nosotros sabemos que hemos pasado de la muerte a la vida porque amamos a nuestros hermanos. El que no ama permanece en la muerte.</div>" },
                         { type: "question", id: "w1d1q1", prompt: "Lea 1 Juan 3.14. ¿Cómo sabemos que hemos pasado de muerte a vida?", placeholder: "Escriba su respuesta aquí..." },
                         { type: "text", text: "El amor de los unos por los otros es la manera de demostrar que hemos pasado de la muerte espiritual a la vida eterna en Cristo. Sin embargo, el pecado aún se interpone en la comunión de unos con otros." },
                         { type: "checklist", id: "w1d1c1", prompt: "Subraye (marque) las causas de los problemas entre usted y los demás:", options: ["Celos", "Codicia", "Amargura", "Orgullo", "Insensibilidad", "Impaciencia", "Ira", "Chisme", "Falta de tacto", "Malentendidos", "Vanagloria", "Avaricia"] },
                         { type: "text", text: "Las diferencias de opiniones, conflictos de personalidades y luchas por el poder también dañan las relaciones personales. Lea Mateo 20.20-24." },
+                        { type: "text", text: "<div class='verse-box'><strong>Mateo 20.20-24 (NVI):</strong> Entonces la madre de los hijos de Zebedeo se acercó a Jesús con sus hijos y, arrodillándose, le hizo una petición... Jesús les dijo: —Ciertamente beberán de mi trago amargo, pero el sentarse a mi derecha o a mi izquierda no me corresponde a mí concederlo... Cuando los otros diez discípulos oyeron esto, se indignaron contra los dos hermanos.</div>" },
                         { type: "question", id: "w1d1q2", prompt: "¿Con quién estaban enfadados los discípulos? ¿Por qué?", placeholder: "Responda aquí..." },
                         { type: "text", text: "Nuestra relación con Cristo hace posible que restauremos las relaciones personales. Por medio del perdón podemos reconciliarnos con Dios y con los demás. Lea 1 Juan 1.7." },
+                        { type: "text", text: "<div class='verse-box'><strong>1 Juan 1.7 (NVI):</strong> Pero si vivimos en la luz, así como él está en la luz, tenemos comunión unos con otros y la sangre de su Hijo Jesucristo nos limpia de todo pecado.</div>" },
                         { type: "question", id: "w1d1q3", prompt: "¿Cuál es la base de la comunión entre los creyentes? ¿Qué limpia esa comunión?", placeholder: "Responda aquí..." }
                     ]
                 },
@@ -28,10 +31,12 @@ const bookData = {
                     content: [
                         { type: "text", text: "Como aprendió el día 1, los creyentes no son inmunes a los problemas interpersonales. Sin embargo, cuando sepa que hay un problema interpersonal, corríjalo inmediatamente." },
                         { type: "header", text: "Su Relación con Dios" },
+                        { type: "text", text: "<div class='verse-box'><strong>Mateo 6.14-15 (NVI):</strong> Mencionan que si perdonan a otros sus ofensas, también los perdonará su Padre celestial; pero si no perdonan, tampoco su Padre perdonará sus ofensas.<br><br><strong>1 Juan 4.20-21 (NVI):</strong> Si alguien afirma: «Yo amo a Dios», pero odia a su hermano, es un mentiroso... Y él nos ha dado este mandamiento: el que ama a Dios, ame también a su hermano.</div>" },
                         { type: "question", id: "w1d2q1", prompt: "Lea Mateo 6.14-15 y 1 Juan 4.20-21. Resúmalos con sus propias palabras:", placeholder: "Escriba su resumen..." },
                         { type: "text", text: "De acuerdo a Mateo 6.14-15 el pecado destruye las relaciones humanas. Si usted no perdona a los demás cuando lo agravian, ¿cómo puede esperar que Dios lo perdone?" },
                         { type: "header", text: "El Mandamiento de Cristo" },
                         { type: "question", id: "w1d2q2", prompt: "Trate de escribir de memoria Mateo 5.23-24:", placeholder: "Escriba el versículo..." },
+                        { type: "text", text: "<div class='verse-box'><strong>Mateo 18.21-22 (NVI):</strong> Pedro se acercó a Jesús y le pregunto: —Señor, ¿cuántas veces tengo que perdonar a mi hermano que peca contra mí? ¿Hasta siete veces? —No te digo que hasta siete veces, sino hasta setenta veces siete —le contestó Jesús.<br><br><strong>Juan 13.34-35 (NVI):</strong> Este mandamiento nuevo les doy: que se amen los unos a los otros. Así como yo los he amado... De este modo todos sabrán que son mis discípulos.</div>" },
                         { type: "checklist", id: "w1d2c1", prompt: "Lea Mateo 18.21-22 y Juan 13.34-35. Marque Verdadero o Falso para las siguientes declaraciones:", options: ["Según Mateo 5.23-24, usted debe restaurar las relaciones sólo si la otra persona lo ha agraviado a usted.", "Según Mateo 18.21-22, usted debe perdonar 490 veces.", "Según Juan 13.34-35, no se espera que usted ame a los demás tal como Cristo lo amó a usted."] }
                     ]
                 },
@@ -40,6 +45,7 @@ const bookData = {
                     content: [
                         { type: "text", text: "El perdón es una decisión deliberada de la voluntad. Aunque la otra persona nunca le pida perdón, usted puede anticiparse y decidir perdonar." },
                         { type: "header", text: "El Peligro del Resentimiento" },
+                        { type: "text", text: "<div class='verse-box'><strong>Hebreos 12.15 (NVI):</strong> Asegúrense de que nadie deje de alcanzar la gracia de Dios; de que ninguna raíz amarga brote y cause dificultades y corrompa a muchos.</div>" },
                         { type: "checklist", id: "w1d3c1", prompt: "Lea Hebreos 12.15 y marque los peligros que se especifican:", options: ["La persona puede olvidar", "No perdonar a dicha persona", "Raíz de amargura que contamina"] },
                         { type: "question", id: "w1d3q1", prompt: "¿Cuál es la mejor forma de abordar el problema? (Escriba su frase de apertura ideal)", placeholder: "Ej: Siento mucho que..." },
                         { type: "text", text: "Pasos para la reconciliación: 1. Reconcíliese en privado. 2. Confiese sus faltas. 3. Pregunte si ha ofendido." }
@@ -50,6 +56,7 @@ const bookData = {
                     content: [
                         { type: "text", text: "Después de pedir perdón, se necesita restituir (Zaqueo, Lucas 19.8)." },
                         { type: "checklist", id: "w1d4c1", prompt: "¿Qué constituye restitución adecuada?", options: ["Decir 'lo siento'", "Retractarse públicamente", "Devolver lo robado", "Reparar el daño material"] },
+                        { type: "text", text: "<div class='verse-box'><strong>Mateo 18.15-17 (NVI):</strong> Si tu hermano peca contra ti, ve a solas con él y hazle ver su falta. Si te hace caso, has ganado a tu hermano. Pero si no, lleva contigo a uno o dos más... Si se niega a hacerles caso a ellos, díselo a la iglesia.</div>" },
                         { type: "question", id: "w1d4q1", prompt: "Lea Mateo 18.15-17. Si un hermano peca contra ti, ¿cuál es el primer paso?", placeholder: "Respuesta..." }
                     ]
                 },
@@ -57,6 +64,7 @@ const bookData = {
                     id: "w1d5", title: "Día 5: Vivir en paz",
                     content: [
                         { type: "text", text: "La oración es el medio espiritual que proporciona la solución a los conflictos." },
+                        { type: "text", text: "<div class='verse-box'><strong>Mateo 5.23-24 (NVI):</strong> Por lo tanto, si estás presentando tu ofrenda en el altar y allí recuerdas que tu hermano tiene algo contra ti, deja tu ofrenda allí delante del altar. Ve primero y reconcíliate con tu hermano; luego vuelve y presenta tu ofrenda.</div>" },
                         { type: "question", id: "w1d5q1", prompt: "Según Mateo 5.23-24, ¿dónde termina un creyente el proceso de reconciliación?", placeholder: "Respuesta..." },
                         { type: "header", text: "Hoja de Evaluación Personal" },
                         { type: "question", id: "w1d5q2", prompt: "Identifique su etapa actual en el Maestro Constructor:", placeholder: "Muerto, Niño, Discípulo, Discipulador, Colaborador..." }
@@ -75,6 +83,7 @@ const bookData = {
                         { type: "header", text: "Historia del Boxeador" },
                         { type: "text", text: "En un avión, oré para sentarme junto a alguien en quien Dios obrara. Me senté junto a un boxeador. Al final del vuelo, oró para recibir a Cristo." },
                         { type: "header", text: "La Relación Modelo" },
+                        { type: "text", text: "<div class='verse-box'><strong>Juan 17.1 (NVI):</strong> Después de que Jesús dijo esto, dirigió la mirada al cielo y oró así: «Padre, ha llegado la hora. Glorifica a tu Hijo, para que tu Hijo te glorifique a ti».</div>" },
                         { type: "question", id: "w2d1q1", prompt: "Lea Juan 17.1. ¿Cuál era el propósito de Jesús?", placeholder: "Respuesta..." },
                         { type: "checklist", id: "w2d1c1", prompt: "¿Cómo puede glorificar al Padre?", options: ["Tiempo devocional", "Prioridades financieras", "Actividades sanas"] },
                         { type: "question", id: "w2d1q2", prompt: "¿A quién le ha encomendado Dios para discipular?", placeholder: "Nombres..." }
@@ -92,6 +101,7 @@ const bookData = {
                     id: "w2d3", title: "Día 3: Salvación: Clave de la relación",
                     content: [
                         { type: "text", text: "La vida eterna es conocer a Dios (Juan 17.3). La persona sin Cristo está 'muerta' espiritualmente." },
+                        { type: "text", text: "<div class='verse-box'><strong>Efesios 2.12 (NVI):</strong> Recuerden que en ese entonces ustedes estaban separados de Cristo... sin esperanza y sin Dios en el mundo.<br><br><strong>Efesios 4.18 (NVI):</strong> A causa de la ignorancia que los domina y por la dureza de su corazón, estos tienen oscurecido el entendimiento y están alejados de la vida que proviene de Dios.</div>" },
                         { type: "question", id: "w2d3q1", prompt: "Escriba las características de una persona espiritualmente muerta (Ef 2.12, 4.18):", placeholder: "Características..." },
                         { type: "header", text: "Método para Testificar" },
                         { type: "text", text: "Use los 4 puntos: Familia, Intereses, Religión, Preguntas de Diagnóstico." },
@@ -110,6 +120,7 @@ const bookData = {
                     id: "w2d5", title: "Día 5: La orden es testificar",
                     content: [
                         { type: "text", text: "Los campos están blancos para la cosecha. Jesús nos eligió para llevar fruto." },
+                        { type: "text", text: "<div class='verse-box'><strong>1 Timoteo 2.3-4 (NVI):</strong> Esto es bueno y agradable a Dios nuestro Salvador, pues él quiere que todos sean salvos y lleguen a conocer la verdad.</div>" },
                         { type: "question", id: "w2d5q1", prompt: "Lea 1 Timoteo 2.3-4. ¿Cuál es la voluntad de Dios?", placeholder: "Respuesta..." },
                         { type: "question", id: "w2d5q2", prompt: "Escriba nombres de personas a quienes ha testificado:", placeholder: "Nombres y reacciones..." }
                     ]
@@ -119,22 +130,25 @@ const bookData = {
         {
             id: "w3",
             title: "Semana 3: Instruir a los niños espirituales",
-            verse: "1 Pedro 2.2-3: Desead, como niños recién nacidos, la leche espiritual no adulterada, para que por ella crezcáis para salvación...",
+            verse: "1 Pedro 2.2-3: Desead, como niños recién nacidos, la leche espiritual no adulterada...",
             days: [
                 {
                     id: "w3d1", title: "Día 1: Seguimiento",
                     content: [
                         { type: "header", text: "Historia: Joe Case" },
-                        { type: "text", text: "Cuando vivía en Nashville, hablaba con mi entrenador, Joe Case, en el gimnasio de la Asociación Cristiana de Jóvenes (YMCA). Un día lo vi leyendo la Biblia y supe que Dios estaba obrando. Joe me contó que un compañero le había dicho: 'Cállate hasta que leas la Biblia'. Había empezado a leer Génesis. Con el tiempo, le presenté a Cristo en una cancha vacía del gimnasio. La siguiente semana Joe ya se había bautizado." },
-                        { type: "text", text: "Para mí fue un privilegio observar a Joe desde ser incrédulo hasta transformarse en un nuevo creyente gozoso. El seguimiento fue sencillo porque nos veíamos regularmente." },
+                        { type: "text", text: "Cuando vivía en Nashville, hablaba con mi entrenador, Joe Case... Para mí fue un privilegio observar a Joe... El seguimiento fue sencillo porque nos veíamos regularmente." },
                         { type: "header", text: "Cuidar al Nuevo Creyente" },
-                        { type: "text", text: "El seguimiento significa cuidar al nuevo creyente desde su nuevo nacimiento hasta que se afirme espiritualmente. La Gran Comisión (Mateo 28.19-20) implica este cuidado." },
+                        { type: "text", text: "El seguimiento significa cuidar al nuevo creyente... La Gran Comisión (Mateo 28.19-20) implica este cuidado." },
+                        { type: "text", text: "<div class='verse-box'><strong>Mateo 28.19-20 (NVI):</strong> Por tanto, vayan y hagan discípulos de todas las naciones, bautizándolos en el nombre del Padre y del Hijo y del Espíritu Santo, enseñándoles a obedecer todo lo que les he mandado a ustedes. Y les aseguro que estaré con ustedes siempre, hasta el fin del mundo.</div>" },
                         { type: "checklist", id: "w3d1c1", prompt: "Marque las oraciones verdaderas según Mateo 28.19-20:", options: ["Hacer discípulos es opcional.", "La persona es madura inmediatamente después de la conversión.", "El discipulador termina su tarea cuando el discípulo obedece lo que Cristo enseñó."] },
                         { type: "header", text: "Ofrezca Ayuda Inmediata" },
+                        { type: "text", text: "<div class='verse-box'><strong>Hechos 9.15-19 (NVI):</strong> El Señor le dijo a Ananías: —Ve, porque ese hombre es mi instrumento escogido... Ananías fue y entró en la casa, le impuso las manos a Saulo... Al instante cayó de los ojos de Saulo algo como escamas, y recobró la vista.</div>" },
                         { type: "question", id: "w3d1q1", prompt: "Lea Hechos 9.15-19. ¿Qué hizo Ananías con respecto al seguimiento de Pablo?", placeholder: "Respuesta..." },
+                        { type: "text", text: "<div class='verse-box'><strong>Hechos 9.26-28 (NVI):</strong> Cuando llegó a Jerusalén, Saulo trató de juntarse con los discípulos, pero todos le tenían miedo... Entonces Bernabé lo tomó y lo llevó a los apóstoles... Así que Saulo se movía con libertad por Jerusalén y predicaba valientemente.</div>" },
                         { type: "question", id: "w3d1q2", prompt: "Lea Hechos 9.26-28. ¿Qué hizo Bernabé para ayudar a Pablo a afirmarse?", placeholder: "Respuesta..." },
                         { type: "text", text: "Ayudar al nuevo creyente a afirmarse en el nuevo grupo de amigos es crucial. Bernabé respondió por Pablo cuando los demás dudaban." },
                         { type: "header", text: "Una Misión con el Maestro: El Niño Espiritual" },
+                        { type: "text", text: "<div class='verse-box'><strong>1 Corintios 3.1 (NVI):</strong> ...no pude hablarles como a personas espirituales sino como a inmaduras, apenas niños en Cristo.<br><br><strong>Efesios 4.14 (NVI):</strong> Así ya no seremos niños, zarandeados por las olas y llevados de aquí para allá por todo viento de enseñanza...</div>" },
                         { type: "checklist", id: "w3d1c2", prompt: "Lea 1 Corintios 3.1 y Efesios 4.14. Marque las características de un niño espiritual:", options: ["Sigue la orientación del mundo", "Propenso a celos y disputas", "Está bien fortalecido en su fe", "Propenso a ser tentado", "Cree en falsas enseñanzas con facilidad", "No sabe discernir quién le puede hacer daño"] }
                     ]
                 },
@@ -142,6 +156,7 @@ const bookData = {
                     id: "w3d2", title: "Día 2: Animemos a otros",
                     content: [
                         { type: "text", text: "Bernabé fue conocido como el 'Hijo de Consolación'. En Hechos 11.22-24, cuando vio la gracia de Dios en Antioquía, se regocijó y exhortó a todos a permanecer fieles." },
+                        { type: "text", text: "<div class='verse-box'><strong>Hechos 11.22-24 (NVI):</strong> Cuando él llegó y vio las evidencias de la gracia de Dios, se alegró y animó a todos a hacerse el firme propósito de permanecer fieles al Señor, pues era un hombre bueno, lleno del Espíritu Santo y de fe. Un gran número de personas aceptó al Señor.</div>" },
                         { type: "question", id: "w3d2q1", prompt: "¿Quién lo alentó a usted cuando recibió al Señor? ¿Qué hizo esa persona?", placeholder: "Nombre y acciones..." },
                         { type: "text", text: "Bernabé también acompañó a Pablo. En Hechos 13.43, vemos que les 'persuadían a que perseverasen en la gracia de Dios'." },
                         { type: "header", text: "Casos de Estudio: ¿Cómo ayudaría usted?" },
@@ -159,6 +174,7 @@ const bookData = {
                         { type: "question", id: "w3d3q1", prompt: "Basándose en cómo Jesús trató a Pedro, enumere maneras de cuidar a un creyente nuevo:", placeholder: "Lista de acciones..." },
                         { type: "header", text: "Asuma la Responsabilidad" },
                         { type: "text", text: "Pablo usó metáforas familiares en 1 Tesalonicenses 2. Relacione los pasajes con la figura:" },
+                        { type: "text", text: "<div class='verse-box'><strong>1 Tesalonicenses 2 (NVI) Resumen:</strong><br>v1-5: ...nunca hemos usado palabras aduladoras... (Trato sincero)<br>v6-7: ...los tratamos con delicadeza. Como una madre que amamanta a sus hijos...<br>v11-12: ...como un padre a sus propios hijos, los hemos animado, consolado y exhortado...</div>" },
                         { type: "list", items: ["1 Tes 2.1-5 -> Hermano (trato igualitario)", "1 Tes 2.6-7 -> Madre (cuidado tierno)", "1 Tes 2.11-12 -> Padre (exhortación y consuelo)"] },
                         { type: "text", text: "Un padre espiritual debe proteger, enseñar, ser ejemplo y trabajar hasta que el creyente madure." },
                         { type: "question", id: "w3d3q2", prompt: "En el Maestro Constructor, ¿cuál es la tarea del Discipulador con el Niño Espiritual?", placeholder: "Respuesta..." }
@@ -168,6 +184,7 @@ const bookData = {
                     id: "w3d4", title: "Día 4: Ejemplos de seguimiento",
                     content: [
                         { type: "text", text: "La iglesia primitiva nos da pautas de seguimiento en Hechos 2.42-47." },
+                        { type: "text", text: "<div class='verse-box'><strong>Hechos 2.42-47 (NVI):</strong> Se mantenían firmes en la enseñanza de los apóstoles, en la comunión, en el partimiento del pan y en la oración... Todos los creyentes estaban juntos y tenían todo en común... Y cada día el Señor añadía al grupo los que iban siendo salvos.</div>" },
                         { type: "question", id: "w3d4q1", prompt: "Lea Hechos 2.42-47. Subraye o escriba qué hacían los primeros cristianos:", placeholder: "Perseveraban en..." },
                         { type: "text", text: "También en Hechos 11.19-23, la iglesia de Jerusalén envió a Bernabé hasta Antioquía para cuidar a los nuevos creyentes. No los dejaron solos." },
                         { type: "header", text: "Preparación para Ministrar" },
@@ -181,6 +198,7 @@ const bookData = {
                     id: "w3d5", title: "Día 5: Cómo cuidar el seguimiento",
                     content: [
                         { type: "text", text: "Tal como un bebé necesita cuidados, un nuevo creyente necesita orientación. Aquí hay 5 disciplinas prácticas para el seguimiento:" },
+                        { type: "text", text: "<div class='verse-box'><strong>Referencias NVI:</strong><br>2 Tim 2.2: Encomiéndalo a creyentes dignos de confianza.<br>Fil 4.9: Pónganlo por práctica.<br>Hechos 20.32: Ahora los encomiendo a Dios...<br>Juan 15.16: ...los he puesto para que vayan y produzcan fruto...</div>" },
                         {
                             type: "list", items: [
                                 "1. EXPLÍQUELE POR QUÉ (2 Tim 2.2): Deben entender la importancia de lo que se les enseña.",
@@ -207,8 +225,9 @@ const bookData = {
                 {
                     id: "w4d1", title: "Día 1: Crezca hacia la madurez",
                     content: [
-                        { type: "text", text: "Cuando Shirley y yo éramos novios, ella trabajaba con un arquitecto. Un hombre le pidió una hoja de 45 pies de largo para dibujar su vida espiritual. ¿Cómo mide usted su madurez? El propósito de Dios es que sea espiritualmente maduro." },
+                        { type: "text", text: "Cuando Shirley y yo éramos novios... ¿Cómo mide usted su madurez? El propósito de Dios es que sea espiritualmente maduro." },
                         { type: "header", text: "La Provisión y el Plan de Dios" },
+                        { type: "text", text: "<div class='verse-box'><strong>Colosenses 1.13-14 (NVI):</strong> Él nos libró del dominio de la oscuridad y nos trasladó al reino de su amado Hijo, en quien tenemos redención y perdón de pecados.<br><br><strong>Colosenses 1.21-22 (NVI):</strong> Pero ahora Dios... los ha reconciliado en el cuerpo mortal de Cristo mediante su muerte.</div>" },
                         { type: "text", text: "En Colosenses 1.21-2.8 Pablo revela el propósito de Dios. Lea Colosenses 1.13-14 y 21-22. Dios nos ha librado de la potestad de las tinieblas y nos ha trasladado al reino de su Hijo." },
                         { type: "checklist", id: "w4d1c1", prompt: "Relacione los versículos con los propósitos de Dios:", options: ["Col 1.22: Ser presentados santos y sin mancha", "Col 1.13: Ser trasladados al Reino", "Col 1.9: Ser llenos del conocimiento de su voluntad", "Col 1.10: Andar como es digno del Señor"] },
                         { type: "header", text: "Ilustraciones de Crecimiento" },
@@ -243,7 +262,9 @@ const bookData = {
                             ]
                         },
                         { type: "header", text: "Principio 1: Dar el Ejemplo" },
-                        { type: "text", text: "Jesús es el ejemplo supremo. En Mateo 4.19, invitó a Pedro a seguirlo. El ejemplo es vital porque es difícil creer lo que no se ve. Escriba nombres de personas que son ejemplo para usted." },
+                        { type: "text", text: "Jesús es el ejemplo supremo. En Mateo 4.19, invitó a Pedro a seguirlo." },
+                        { type: "text", text: "<div class='verse-box'><strong>Mateo 4.19 (NVI):</strong> «Vengan, síganme —les dijo Jesús—, y los haré pescadores de hombres».</div>" },
+                        { type: "text", text: "El ejemplo es vital porque es difícil creer lo que no se ve. Escriba nombres de personas que son ejemplo para usted." },
                         { type: "question", id: "w4d3q1", prompt: "Nombres de sus ejemplos cristianos:", placeholder: "Nombres..." },
                         { type: "header", text: "Principio 2: Explicar" },
                         { type: "text", text: "El ejemplo necesita explicación. Jesús explicaba que todo lo que hacía venía del Padre (Juan 17.7)." }
@@ -268,6 +289,7 @@ const bookData = {
                     content: [
                         { type: "header", text: "Principio 5: Comisionar" },
                         { type: "text", text: "Las personas necesitan ser validadas. La iglesia comisionó a Bernabé y Saulo (Hechos 13.1-3). Jesús comisionó a Pedro ('Apacienta mis ovejas')." },
+                        { type: "text", text: "<div class='verse-box'><strong>Hechos 13.2-3 (NVI):</strong> Mientras ayunaban y participaban en el culto al Señor, el Espíritu Santo dijo: «Apártenme ahora a Bernabé y a Saulo para el trabajo al que los he llamado». Así que... los despidieron.</div>" },
                         { type: "text", text: "Cuando usted valora los ministerios de otros, les hace saber que los apoya. Se convierte en un compañero a quien rendir cuentas." },
                         { type: "question", id: "w4d5q1", prompt: "Escriba los 5 principios del discipulado y la respuesta del discípulo (Ej: Da ejemplo -> Imita):", placeholder: "1...\n2...\n3...\n4...\n5..." },
                         { type: "header", text: "Misión con el Maestro" },
@@ -285,10 +307,11 @@ const bookData = {
                     id: "w5d1", title: "Día 1: Ejemplifique la dependencia",
                     content: [
                         { type: "header", text: "Historia de la Abuela" },
-                        { type: "text", text: "Mi abuela tenía 62 descendientes. Me dijo: 'Yo solo crié a 6. De los demás se ocuparon sus padres'. Así funciona la multiplicación espiritual. Timoteo aprendió de su madre y abuela (2 Tim 1.5)." },
+                        { type: "text", text: "Mi abuela tenía 62 descendientes... Timoteo aprendió de su madre y abuela (2 Tim 1.5)." },
                         { type: "header", text: "Necesidad de Discipular" },
                         { type: "text", text: "La Gran Comisión se centra en MULTIPLICAR. Si usted no discipula a otros para que enseñen, su rendimiento se agota en una generación." },
                         { type: "header", text: "Principios para Multiplicar (2 Tim 2.1-3)" },
+                        { type: "text", text: "<div class='verse-box'><strong>2 Timoteo 2.1-3 (NVI):</strong> Tú, pues, hijo mío, fortalécete por la gracia que tenemos en Cristo Jesús. Lo que me oíste decir en presencia de muchos testigos, encárgalo a creyentes dignos de confianza, que a su vez estén capacitados para enseñar a otros. Soporta conmigo los sufrimientos, como buen soldado de Cristo Jesús.</div>" },
                         { type: "list", items: ["1. Sea un buen ejemplo de Jesucristo.", "2. Encomiende las verdades a discípulos confiables.", "3. Ministre incluso en adversidad."] },
                         { type: "question", id: "w5d1q1", prompt: "Lea 2 Timoteo 2.2. ¿Cuáles son las 4 generaciones mencionadas? (Pablo -> ... -> ... -> ...)", placeholder: "Pablo -> Timoteo -> Hombres fieles -> Otros" }
                     ]
@@ -300,10 +323,10 @@ const bookData = {
                         {
                             type: "list", items: [
                                 "1. LA ORACIÓN (v.3): Pablo oraba día y noche.",
-                                "2. EL TESTIMONIO (v.8): No avergonzarse.",
+                                "2. EL TESTIMONIO (v.8): No avergonzarse (2 Tim 1.8: 'No te avergüences de dar testimonio...').",
                                 "3. LA COMUNIÓN: Timoteo tenía a Pablo, su madre y abuela.",
-                                "4. LA PALABRA (v.13-14): Guarda el buen depósito.",
-                                "5. EL MINISTERIO (v.16-18): Onesíforo sirvió a Pablo."
+                                "4. LA PALABRA (v.13-14): Guarda el buen depósito ('Cuida la buena enseñanza...').",
+                                "5. EL MINISTERIO (v.16-18): Onesíforo sirvió a Pablo ('muchas veces me dio ánimo...')."
                             ]
                         },
                         { type: "checklist", id: "w5d2c1", prompt: "¿Cómo lo apoya la comunión de los creyentes?", options: ["Oran por mí", "Me animan a testificar", "Me preparan para ministrar", "Me hacen rendir cuentas", "Me respaldan en dificultad"] },
@@ -338,6 +361,7 @@ const bookData = {
                     id: "w5d5", title: "Día 5: Pureza y perseverancia",
                     content: [
                         { type: "text", text: "Pablo usa dos ilustraciones más:" },
+                        { type: "text", text: "<div class='verse-box'><strong>2 Timoteo 2.5 (NVI):</strong> Así mismo, el atleta no recibe la corona de laurel a menos que compita de acuerdo con las reglas.<br><br><strong>2 Timoteo 2.6 (NVI):</strong> El labrador que trabaja duro tiene derecho a recibir primero parte de la cosecha.</div>" },
                         { type: "list", items: ["EL ATLETA (2 Tim 2.5): Debe luchar legítimamente. Requiere PUREZA e integridad.", "EL LABRADOR (2 Tim 2.6): Debe trabajar primero para participar de los frutos. Requiere PERSEVERANCIA."] },
                         { type: "header", text: "Cómo Preparar un Mensaje" },
                         { type: "text", text: "Para compartir un estudio bíblico:\n1. IDEA PRINCIPAL: Resuma el pasaje.\n2. OBJETIVO: Qué quiere que los oyentes hagan.\n3. BOSQUEJO: Explique, Iluste, Aplique.\n4. PRESENTACIÓN: Introducción (Capte interés), Cuerpo (¿Cómo?), Conclusión (¿Y entonces qué?)." },
@@ -355,13 +379,15 @@ const bookData = {
                     id: "w6d1", title: "Día 1: Los dones de la gracia de Dios",
                     content: [
                         { type: "header", text: "Historia: Youtie" },
-                        { type: "text", text: "Cuando era misionero en Indonesia, discipulé a Youtie. Él comenzó a pastorear una iglesia en casa... Más tarde llegó a ser misionero en Kalimantan. Youtie no es mi discípulo, es un discípulo del Señor. Él se convirtió en un discípulo colaborador." },
+                        { type: "text", text: "Cuando era misionero en Indonesia, discipulé a Youtie... Él se convirtió en un discípulo colaborador." },
                         { type: "header", text: "¿Qué son los dones espirituales?" },
                         { type: "text", text: "En 1 Corintios 12.4, 'dones' viene de 'charismata' (don de gracia). Lea Romanos 12.6." },
+                        { type: "text", text: "<div class='verse-box'><strong>Romanos 12.6 (NVI):</strong> Tenemos dones diferentes, según la gracia que se nos ha dado. Si el don de alguien es el de profecía, que lo use en proporción con su fe.</div>" },
                         { type: "question", id: "w6d1q1", prompt: "¿Cuál es la base para recibir dones espirituales?", placeholder: "Respuesta..." },
                         { type: "text", text: "Definición: Los dones espirituales son habilidades espirituales dadas a los creyentes por el Espíritu Santo para equiparlos y realizar la obra de Dios." },
                         { type: "header", text: "Dones y Fruto" },
                         { type: "text", text: "Los dones (servicio, medios, lo que se tiene) son diferentes al Fruto del Espíritu (carácter, fin, lo que se es)." },
+                        { type: "text", text: "<div class='verse-box'><strong>Gálatas 5.22 (NVI):</strong> En cambio, el fruto del Espíritu es amor, alegría, paz, paciencia, amabilidad, bondad, fidelidad.</div>" },
                         { type: "checklist", id: "w6d1c1", prompt: "Marque cuáles son Fruto del Espíritu (Gálatas 5:22):", options: ["Amor", "Predicar", "Paz", "Sanar", "Paciencia", "Enseñar"] }
                     ]
                 },
@@ -370,6 +396,7 @@ const bookData = {
                     content: [
                         { type: "text", text: "Los dones espirituales son diferentes a los talentos. Talentos son naturales (nacer), Dones son espirituales (nacer de nuevo)." },
                         { type: "header", text: "Cómo se reciben" },
+                        { type: "text", text: "<div class='verse-box'><strong>1 Pedro 4.10 (NVI):</strong> Cada uno ponga al servicio de los demás el don que haya recibido, administrando bien la gracia de Dios en sus diversas formas.<br><br><strong>1 Corintios 12.11 (NVI):</strong> Todas estas cosas, sin embargo, las produce el único y mismo Espíritu, quien reparte a cada uno según él lo determina.</div>" },
                         { type: "text", text: "Cada creyente recibe al menos un don (1 Pedro 4.10). Usted no los escoge, Dios los distribuye como quiere (1 Cor 12.11). Todos los miembros son necesarios." },
                         { type: "question", id: "w6d2q1", prompt: "¿Qué dones cree que tiene usted?", placeholder: "Escriba sus pensamientos..." },
                         { type: "text", text: "En la familia de Dios cada miembro es importante. Si usted se desprecia, no es humildad, es ingratitud." }
@@ -379,6 +406,7 @@ const bookData = {
                     id: "w6d3", title: "Día 3: Edifique el cuerpo de Cristo",
                     content: [
                         { type: "text", text: "¿Cuál es el propósito de los dones? 1 Corintios 14.12 dice: 'Para edificación de la iglesia'." },
+                        { type: "text", text: "<div class='verse-box'><strong>Efesios 4.11-13 (NVI):</strong> Él mismo constituyó a unos como apóstoles; a otros, profetas... a fin de capacitar al pueblo de Dios para la obra de servicio, para edificar el cuerpo de Cristo.</div>" },
                         { type: "question", id: "w6d3q1", prompt: "Lea Efesios 4.11-13. ¿Quién debe hacer la obra del ministerio?", placeholder: "Respuesta..." },
                         { type: "text", text: "Los líderes (apóstoles, pastores, maestros) capacitan a los santos (usted) para la obra del ministerio." },
                         { type: "header", text: "Parábola de los Talentos" },
@@ -390,6 +418,7 @@ const bookData = {
                     id: "w6d4", title: "Día 4: Ministre con otros",
                     content: [
                         { type: "text", text: "Los dones deben usarse en amor (1 Corintios 13). Sin amor, los dones no sirven de nada. El amor es el camino más excelente." },
+                        { type: "text", text: "<div class='verse-box'><strong>1 Corintios 13 (Resumen NVI):</strong> Si hablo en lenguas... pero no tengo amor, no soy más que un metal que resuena... El amor es paciente, es bondadoso... Todo lo disculpa, todo lo cree, todo lo espera, todo lo soporta.</div>" },
                         { type: "header", text: "Una Aventura en el Ministerio" },
                         { type: "text", text: "1. CADA CREYENTE ES UN MINISTRO: Todos somos sacerdotes.\n2. LLAMADOS AL MINISTERIO: Al seguir a Cristo, somos llamados a servir.\n3. TIENE DONES: Dios lo equipó.\n4. DEBE PREPARARSE: Capacitarse para servir mejor." },
                         { type: "question", id: "w6d4q1", prompt: "Proceso para explorar un ministerio: Elija un área (ej: enseñanza, ayuda) y escriba cómo podría involucrarse:", placeholder: "Plan..." }
